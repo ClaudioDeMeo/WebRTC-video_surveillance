@@ -1,0 +1,35 @@
+{
+  "name": "WebRTCSecuritySystem",
+  "version": "0.1.0",
+  "description": "Implement a simple audio/video chat by using WebRTC",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimircea/WebRTC.git"
+  },
+  "keywords": [
+    "WebRTC",
+    "Video",
+    "Audio",
+    "JavaScript",
+    "HTML"
+  ],
+  "author": "Mircea Diaconescu",
+  "license": "CPOL-1.02",
+  "bugs": {
+    "url": "https://github.com/dimircea/WebRTC/issues"
+  },
+  "homepage": "https://github.com/dimircea/WebRTC#readme",
+  "dependencies": {
+    "bufferutil": "^2.0.1",
+    "express": "^4.14.1",
+    "fs": "0.0.1-security",
+    "utf-8-validate": "^3.0.1",
+    "websocket": "^1.0.24",
+    "ws": "^1.1.2"
+  }
+}

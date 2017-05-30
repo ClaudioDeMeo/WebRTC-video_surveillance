@@ -48,7 +48,6 @@ wss.broadcast = function (data, exclude) {
   if (n < 1) return;
   console.log("Broadcasting message to all " + n + " WebSocket clients.");
   for (var i=0; i < n; i++) {
-	  
     client = this.clients[i];
     // don't send the message to the sender...
     if (client === exclude) {

@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/main.css" media="all">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<title>Web RTC Security Sistem</title>
+	</head>
+	<body>
+	
+	<div id="container">
+		<div id="containerVideo">
+			
+		</div>
+		<br>
+		<div id="containerButton">
+			<button id="hangup">
+				Rimuovi webcam
+			</button> Inserisci la camera da eliminare: 
+			<input id="inputText"></input>
+			<br>
+			<button id="downloadlog">
+				Scarica Log
+			</button >
+			<button id="downloadvideo">
+				Scarica Video
+			</button >Inserisci il nome della camera da scaricare: 
+			<input id="inputVideoText"></input>
+		</div>
+		<div id="Mex">
+		</div>
+		<div id="ErrorMex">
+		</div>
+		<div id="sdpAnswer"></div>
+		</div>
+		<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+		<script type="text/javascript" src="js/mainpeer.js"></script>
+	</body>
+</html>

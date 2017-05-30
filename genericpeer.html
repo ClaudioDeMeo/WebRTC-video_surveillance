@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/main.css" media="all">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<title>Web RTC Security Sistem</title>
+	</head>
+	<body>
+	
+	<div id="container">
+		<div id="containerVideo">
+			Inserisci l'id
+			<input id="idcam"></input><br>
+			<video id="local" autoplay controls></video>
+		</div>
+		<br>
+		<div id="containerButton">
+			<button type="button" id="call">
+				Call
+			</button>
+			<button id="hangup">
+				Hang Up
+			</button>
+			<br>
+		</div>
+		<div id="Mex">
+		</div>
+		<div id="ErrorMex">
+		</div>
+		</div>
+		<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+		<script type="text/javascript" src="js/genericpeer.js"></script>
+		<script type="text/javascript" src="js/global.js"></script>
+		<script type="text/javascript" src="js/WebCamCapture.js"></script>
+		<script type="text/javascript" src="js/ImageCompare.js"></script>
+		<script type="text/javascript" src="js/Core.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
